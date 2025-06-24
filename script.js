@@ -30,6 +30,11 @@ function addToCart() {
   document.getElementById('cart-count').innerText = cartCount;
   localStorage.setItem('cartCount', cartCount);
 }
+function clearCart() {
+  cartCount = 0;
+  localStorage.setItem('cartCount', cartCount);
+  document.getElementById('cart-count').innerText = cartCount;
+}
 
 function renderProducts() {
   const container = document.getElementById('product-list');
