@@ -1,21 +1,35 @@
-# Flipkart Product Page Clone
+# 🛍️ Flipkart Storefront Clone
 
-A simple responsive product page inspired by Flipkart's design. Built using HTML, CSS, and JavaScript.
+A simple and responsive e-commerce frontend project inspired by Flipkart's product listing. Built using HTML, CSS, and vanilla JavaScript, this project displays multiple product cards, simulates Add-to-Cart functionality, and uses localStorage to persist the cart count.
 
-## ✨ Features
-- Product image, name, price, and description
-- Add to Cart functionality (click to increase counter)
-- Clean and responsive layout using Flexbox
+---
+
+## 🚀 Features
+
+- 🛒 Multiple dynamic product cards with image, title, price & description
+- 💾 Add to Cart functionality with persistent cart count via localStorage
+- 🔍 Search bar UI for realism (non-functional)
+- 📱 Fully responsive design using CSS Grid and Flexbox
+- 🧠 Pure JavaScript project with no external frameworks
+
+---
 
 ## 🧰 Tech Stack
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
 
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript (DOM Manipulation, localStorage)
+
+---
 
 ## 📸 Preview
-![Flipkart Clone UI](./screenshot.png)
 
+![Preview](./screenshot.png)
 
-## 🚀 How to Run Locally
-1. Clone this repository:
+---
+
+## 🛠️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dakshdhanwani/flipkart-product-page.git
