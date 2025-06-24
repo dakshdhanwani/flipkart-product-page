@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flipkart Product Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flipkart Store Clone</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <div class="product">
-      <img src="https://via.placeholder.com/300" alt="Samsung Galaxy M12" />
-      <h2>Samsung Galaxy M12</h2>
-      <p class="price">₹12,999</p>
-      <p class="desc">6.5-inch Display | 48MP Quad Camera | 6000mAh Battery</p>
-      <button onclick="addToCart()">Add to Cart</button>
-      <p id="cart-count">Cart: 0</p>
+  <header>
+    <h1>Flipkart Clone</h1>
+    <div class="cart">
+      🛒 Cart: <span id="cart-count">0</span>
     </div>
+  </header>
+
+  <input type="text" placeholder="Search for products..." class="search-box" disabled />
+
+  <div class="container" id="product-list">
+    <!-- Products will be added here via JS -->
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

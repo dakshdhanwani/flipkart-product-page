@@ -12,8 +12,10 @@ A simple responsive product page inspired by Flipkart's design. Built using HTML
 - CSS3
 - JavaScript (Vanilla)
 
+
 ## 📸 Preview
-![Screenshot](./screenshot.png)
+![Flipkart Clone UI](./screenshot.png)
+
 
 ## 🚀 How to Run Locally
 1. Clone this repository:
